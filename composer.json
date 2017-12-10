@@ -1,0 +1,24 @@
+{
+    "name": "sakthi/sakthi",
+    "description": "area calculator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sakthikeerthiga",
+            "email": "sakthichandren@gmail.com"
+        }
+    ],
+   "require": {
+        "nesbot/carbon": "~1.18"
+        },
+    "require-dev": {
+        "monolog/monolog": "1.23.*"
+    }, 
+    "autoload": {
+    "psr-4": {
+        "Sakthi\\": "source/"
+    }
+    }
+
+}
